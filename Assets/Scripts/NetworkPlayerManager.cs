@@ -4,7 +4,6 @@ using UnityEngine.Networking;
 
 public class NetworkPlayerManager : NetworkBehaviour {
 
-//	public GvrViewer gvrViewer;
 	public GameObject head;
 	public GameObject stereoRender;
 	public GameObject camShakerHolder;

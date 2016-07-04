@@ -20,7 +20,6 @@ public class TramPlayerManager : NetworkBehaviour {
 	Transform targetRot;
 
 	GvrViewer gvrViewer;
-//	NetworkManager netManager;
 
 	void Awake () {
 		renderers = GetComponentsInChildren<Renderer> ();

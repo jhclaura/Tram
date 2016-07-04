@@ -4,6 +4,7 @@ Info
 //----------------- SCENES --------------------------
 opening_m2 - only NetworkServer & NetworkClient
 opening_m3 - add NetworkManager
+opening_m4 - cleaned up
 //---------------------------------------------------
 
 
@@ -17,23 +18,25 @@ opening_m3 - add NetworkManager
 2. Player as a class
 - can't be duplicated
 - playerId
+- put inside NetworkPlayerManager script?
 
 3. Broadcast
 - new client join
 - client disconnect
 - ??? NetworkManage already deal with this ???
+- !! need to Destroy the player completely !!
 
-4. Spawn Gameobject with NetworkIdentity on all clients
+4. Spawn Gameobject with NetworkIdentity on all clients (V)
 //---------------------------------------------------
 
 
 //----------------- CLIENT TASKS --------------------
-1. update my position & rotation
+1. update my position & rotation (V)--dealt by HLAPI
 
 2. generate new player if it's not me
 - keep it in player dictionary
 
-3. update other players' positions & rotations
+3. update other players' positions & rotations (V)--dealt by HLAPI
 
 4. remove player if it disconnects
 - update player dictionary
@@ -43,5 +46,7 @@ opening_m3 - add NetworkManager
 - ??? NetworkManage already deal with this ???
 - ??? doesn't need  this cuz join at the same time ???
 
-6. ALL the interactions and data exchange
+6. Send data to server
+
+7. Get data from server
 //---------------------------------------------------

@@ -24,6 +24,7 @@ public class UIManager : MonoBehaviour {
 	NetworkClient theClient = null;
 	string playerName = "";
 
+
 	//----------------------------------------------
 	void Awake()
 	{
