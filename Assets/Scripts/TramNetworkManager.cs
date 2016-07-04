@@ -12,6 +12,7 @@ public class TramNetworkManager : NetworkManager {
 	public GameObject playerPrefab_tram     { get { return m_PlayerPrefab_Tram; }  set { m_PlayerPrefab_Tram = value; } }
 	GameObject sceneCamera2;
 
+
 	//----------------------------------------------
 	public override void OnServerConnect(NetworkConnection conn)
 	{
