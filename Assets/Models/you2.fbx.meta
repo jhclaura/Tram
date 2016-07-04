@@ -1,0 +1,106 @@
+fileFormatVersion: 2
+guid: c08b805e59be44bffbd2bc55f6a9169c
+timeCreated: 1441636167
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Boy_hands_geo
+    100002: Boy_head_base
+    100004: Boy_pants_geo
+    100006: Boy_Sweater_geo
+    100008: group1
+    100010: joint1
+    100012: joint2
+    100014: //RootNode
+    100016: Boy_LeftF
+    100018: Boy_pants
+    100020: Boy_RightF
+    400000: Boy_hands_geo
+    400002: Boy_head_base
+    400004: Boy_pants_geo
+    400006: Boy_Sweater_geo
+    400008: group1
+    400010: joint1
+    400012: joint2
+    400014: //RootNode
+    400016: Boy_LeftF
+    400018: Boy_pants
+    400020: Boy_RightF
+    4300000: Boy_pants_geo
+    4300002: Boy_Sweater_geo
+    4300004: Boy_head_base
+    4300006: Boy_hands_geo
+    4300008: Boy_RightF
+    4300010: Boy_pants
+    4300012: Boy_LeftF
+    9500000: //RootNode
+    13700000: Boy_hands_geo
+    13700002: Boy_head_base
+    13700004: Boy_pants_geo
+    13700006: Boy_Sweater_geo
+    13700008: Boy_LeftF
+    13700010: Boy_pants
+    13700012: Boy_RightF
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

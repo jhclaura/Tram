@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: af7564186b07640bbaa46a07965ee84a
+timeCreated: 1441049178
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: man:Character1_Head
+    100002: man:Character1_Hips
+    100004: man:Character1_LeftArm
+    100006: man:Character1_LeftFoot
+    100008: man:Character1_LeftForeArm
+    100010: man:Character1_LeftHand
+    100012: man:Character1_LeftLeg
+    100014: man:Character1_LeftShoulder
+    100016: man:Character1_LeftUpLeg
+    100018: man:Character1_Neck
+    100020: man:Character1_Reference
+    100022: man:Character1_RightArm
+    100024: man:Character1_RightFoot
+    100026: man:Character1_RightForeArm
+    100028: man:Character1_RightHand
+    100030: man:Character1_RightLeg
+    100032: man:Character1_RightShoulder
+    100034: man:Character1_RightUpLeg
+    100036: man:Character1_Spine
+    100038: man:Man
+    100040: //RootNode
+    400000: man:Character1_Head
+    400002: man:Character1_Hips
+    400004: man:Character1_LeftArm
+    400006: man:Character1_LeftFoot
+    400008: man:Character1_LeftForeArm
+    400010: man:Character1_LeftHand
+    400012: man:Character1_LeftLeg
+    400014: man:Character1_LeftShoulder
+    400016: man:Character1_LeftUpLeg
+    400018: man:Character1_Neck
+    400020: man:Character1_Reference
+    400022: man:Character1_RightArm
+    400024: man:Character1_RightFoot
+    400026: man:Character1_RightForeArm
+    400028: man:Character1_RightHand
+    400030: man:Character1_RightLeg
+    400032: man:Character1_RightShoulder
+    400034: man:Character1_RightUpLeg
+    400036: man:Character1_Spine
+    400038: man:Man
+    400040: //RootNode
+    4300000: man:Man
+    7400000: p_walkin
+    7400002: p_lookaround
+    7400004: p_turnright
+    7400006: p_walkstart
+    7400008: p_walk
+    7400010: p_walkend
+    7400012: p_turnleft
+    7400014: p_onsit
+    7400016: p_sitswing
+    7400018: p_offsit
+    9500000: //RootNode
+    13700000: man:Man
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: p_walkin
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: man:Character1_Reference
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg/man:Character1_LeftFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg/man:Character1_RightFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm/man:Character1_LeftHand
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck/man:Character1_Head
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm/man:Character1_RightHand
+        weight: 1
+      - path: man:Man
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: p_lookaround
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: man:Character1_Reference
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg/man:Character1_LeftFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg/man:Character1_RightFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm/man:Character1_LeftHand
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck/man:Character1_Head
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm/man:Character1_RightHand
+        weight: 1
+      - path: man:Man
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: p_turnright
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 133
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: man:Character1_Reference
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg/man:Character1_LeftFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg/man:Character1_RightFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm/man:Character1_LeftHand
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck/man:Character1_Head
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm/man:Character1_RightHand
+        weight: 1
+      - path: man:Man
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: p_walkstart
+      takeName: Take 001
+      firstFrame: 135
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: man:Character1_Reference
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg/man:Character1_LeftFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg/man:Character1_RightFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm/man:Character1_LeftHand
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck/man:Character1_Head
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm/man:Character1_RightHand
+        weight: 1
+      - path: man:Man
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: p_walk
+      takeName: Take 001
+      firstFrame: 144
+      lastFrame: 178
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: man:Character1_Reference
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg/man:Character1_LeftFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg/man:Character1_RightFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm/man:Character1_LeftHand
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck/man:Character1_Head
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm/man:Character1_RightHand
+        weight: 1
+      - path: man:Man
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: p_walkend
+      takeName: Take 001
+      firstFrame: 179
+      lastFrame: 197
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: man:Character1_Reference
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg/man:Character1_LeftFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg/man:Character1_RightFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm/man:Character1_LeftHand
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck/man:Character1_Head
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm/man:Character1_RightHand
+        weight: 1
+      - path: man:Man
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: p_turnleft
+      takeName: Take 001
+      firstFrame: 214
+      lastFrame: 244
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: man:Character1_Reference
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg/man:Character1_LeftFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg/man:Character1_RightFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm/man:Character1_LeftHand
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck/man:Character1_Head
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm/man:Character1_RightHand
+        weight: 1
+      - path: man:Man
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: p_onsit
+      takeName: Take 001
+      firstFrame: 244
+      lastFrame: 260
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: man:Character1_Reference
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg/man:Character1_LeftFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg/man:Character1_RightFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm/man:Character1_LeftHand
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck/man:Character1_Head
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm/man:Character1_RightHand
+        weight: 1
+      - path: man:Man
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: p_sitswing
+      takeName: Take 001
+      firstFrame: 262
+      lastFrame: 294
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: man:Character1_Reference
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg/man:Character1_LeftFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg/man:Character1_RightFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm/man:Character1_LeftHand
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck/man:Character1_Head
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm/man:Character1_RightHand
+        weight: 1
+      - path: man:Man
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: p_offsit
+      takeName: Take 001
+      firstFrame: 290
+      lastFrame: 305
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: man:Character1_Reference
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_LeftUpLeg/man:Character1_LeftLeg/man:Character1_LeftFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_RightUpLeg/man:Character1_RightLeg/man:Character1_RightFoot
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_LeftShoulder/man:Character1_LeftArm/man:Character1_LeftForeArm/man:Character1_LeftHand
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_Neck/man:Character1_Head
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm
+        weight: 1
+      - path: man:Character1_Reference/man:Character1_Hips/man:Character1_Spine/man:Character1_RightShoulder/man:Character1_RightArm/man:Character1_RightForeArm/man:Character1_RightHand
+        weight: 1
+      - path: man:Man
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

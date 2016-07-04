@@ -1,0 +1,47 @@
+AS ONE @Unity3D
+
+Info
+//----------------- SCENES --------------------------
+opening_m2 - only NetworkServer & NetworkClient
+opening_m3 - add NetworkManager
+//---------------------------------------------------
+
+
+//----------------- SERVER TASKS --------------------
+1. keep track of all the sockets/players
+- add
+- remove
+- as dictionary or object?
+- todo: print out at server side
+
+2. Player as a class
+- can't be duplicated
+- playerId
+
+3. Broadcast
+- new client join
+- client disconnect
+- ??? NetworkManage already deal with this ???
+
+4. Spawn Gameobject with NetworkIdentity on all clients
+//---------------------------------------------------
+
+
+//----------------- CLIENT TASKS --------------------
+1. update my position & rotation
+
+2. generate new player if it's not me
+- keep it in player dictionary
+
+3. update other players' positions & rotations
+
+4. remove player if it disconnects
+- update player dictionary
+
+5. generate history player (one time only, in the beginning)
+- keep it in player dictionary
+- ??? NetworkManage already deal with this ???
+- ??? doesn't need  this cuz join at the same time ???
+
+6. ALL the interactions and data exchange
+//---------------------------------------------------
